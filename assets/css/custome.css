@@ -1,0 +1,669 @@
+﻿.login_page_wrapper
+{
+    width: 640px !important;
+    clear: both;
+}
+
+.mb-20
+{
+    margin-bottom: 20px;
+}
+
+.mb-50
+{
+    margin-bottom: 50px;
+}
+
+.mt-20
+{
+    margin-top: 20px;
+}
+
+.pt-20
+{
+    padding-top: 20px;
+}
+
+.pt-30
+{
+    padding-top: 30px;
+}
+
+.pt-50
+{
+    padding-top: 50px;
+}
+
+.pl-50
+{
+    padding-left: 50px;
+}
+
+.add-list-btn
+{
+    padding-left: 6px !important;
+}
+
+.pl15
+{
+    padding-left: 15px !important;
+}
+
+.align-right
+{
+    text-align: right;
+}
+
+.select-language-login
+{
+    max-width: 100px;
+    display: inline-block;
+    width: 100px;
+    float: right;
+}
+
+.sepratore
+{
+    position: relative;
+}
+
+.sepratore::before
+{
+    content: "";
+    position: absolute;
+    left: 18px;
+    height: 100%;
+    border-left: 1px solid #ccc;
+}
+
+
+.selectize-control.single .selectize-input:after
+{
+    border: none !important;
+    content: '\e5c5';
+    font-family: "Material Icons";
+    font-size: 28px;
+    margin-top: -12px !important;
+    right: 28px;
+    color: rgba(0,0,0,.3);
+}
+
+.profile
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+.user-pic-placeholder
+{
+    max-width: 100px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    position: relative;
+}
+
+.user-details
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.margin0
+{
+    margin: 0 !important;
+}
+
+.edit-p
+{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: #299a29;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.dashoard-manage
+{
+    width: 24%;
+    min-height: 140px;
+    margin-right: 21px;
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+    border: none;
+    vertical-align: top;
+    margin-top: 25px;
+}
+
+.dashoard-billing
+{
+    width: 24%;
+    min-height: 140px;
+    margin-right: 21px;
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+    border: none;
+    vertical-align: top;
+    margin-top: 25px;
+}
+
+
+.dashoard-manage > h3, .dashoard-billing > h3
+{
+    color: #2b2a2a !important;
+    border-top: 3px solid #1976d2;
+    padding: 10px 15px 0 15px;
+}
+
+.billing-count
+{
+    width: 18px;
+    color: #1976d2;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.content-billing
+{
+    margin-bottom: 0px !important;
+    margin-top: 00px !important;
+}
+
+.billing-label
+{
+    font-size: 14px;
+    margin-top: 2px;
+    display: inline-block;
+    margin-left: 15px;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+
+.content
+{
+    padding: 0 15px 15px 15px;
+}
+
+.manage-label
+{
+    font-size: 14px;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    margin-bottom: 2px !important;
+    margin-top: 2px !important;
+    display: block;
+}
+
+.user-profile-view
+{
+    min-height: 450px;
+}
+
+.md-header-card
+{
+    padding: 15px;
+}
+
+.view-control
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.view-control i
+{
+    font-size: 32px;
+}
+
+.view-control i.active
+{
+    color: #000;
+}
+
+.inr-box
+{
+    color: #2b2a2a !important;
+    border-top: 3px solid #1976d2;
+    padding: 10px 15px;
+    min-height: 120px;
+    margin-bottom: 20px !important;
+}
+
+.big-text
+{
+    font-size: 80px;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+.big-text-container
+{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+    width: 68%;
+}
+
+.big-text-container p
+{
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+    .dashoard-manage
+    {
+        width: 48.5%;
+        min-height: 140px;
+        margin-right: 20px;
+    }
+
+    .dashoard-billing
+    {
+        width: 48.5%;
+        min-height: 140px;
+        margin-right: 0;
+    }
+
+    .manage-label, .billing-label
+    {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    .sepratore::before
+    {
+        display: none;
+    }
+
+    .dashoard-manage, .dashoard-billing
+    {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .manage-label, .billing-label
+    {
+        font-size: 15px;
+    }
+
+    .pl-50
+    {
+        padding-left: 0px;
+    }
+
+    .inr-box
+    {
+        min-height: unset;
+    }
+}
+
+@media only screen and (max-width: 479px)
+{
+    .big-text
+    {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .big-text-container
+    {
+        padding-top: 0;
+    }
+
+    .inr-box
+    {
+        padding-left: 0;
+    }
+
+    .big-text-container h3
+    {
+        margin-bottom: 0;
+    }
+
+    .big-text-container .pt-20
+    {
+        padding-top: 0;
+    }
+}
+
+#sidebar_main .sidebar_main_header .sidebar_logo a
+{
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo_regular
+{
+    height: 48px;
+}
+
+.participants-label
+{
+    margin: 0 0 0 21px !important;
+}
+
+.participants-item input
+{
+    height: auto !important;
+    position: absolute !important;
+}
+
+.participants-item
+{
+    padding: 5px 12px !important;
+}
+
+.participants-item a
+{
+    padding: 6px 7px 0 0 !important;
+}
+
+.participants-item a::after
+{
+    font-size: 14px !important;
+}
+
+.no-msg-container
+{
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    position: absolute;
+    transform: translate(0,-50%);
+}
+
+.pull-left
+{
+    float: left !important;
+}
+
+.user-btn, .user-btn:hover
+{
+    width: 30px;
+    display: block;
+    text-align: center;
+    height: 30px;
+    background-color: #1e88e5;
+    line-height: 32px;
+    margin-top: 15px;
+    box-shadow: 2px 2px 5px #b7b7b7;
+    color: #fff !important;
+}
+
+.user-btn a
+{
+    color: #fff;
+}
+
+.user-list
+{
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 8px;
+    height: 200px;
+    box-shadow: 1px 1px 5px #e6e6e6;
+    overflow: auto;
+}
+
+.user-list > div
+{
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-list-label
+{
+    display: inline-block;
+    width: 88%;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.user-minus-btn
+{
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 21px;
+    position: absolute;
+    color: #1e88e5 !important;
+    right: 0;
+}
+
+.list-content > span > i
+{
+    position: absolute;
+    margin-top: 4px;
+}
+
+.list-content span
+{
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+.chat-li.active
+{
+    background-color: #1976d2;
+}
+
+.chat-li.active .material-icons
+{
+    color: #fff;
+}
+
+.chat-li.active .uk-button-dropdown
+{
+    color: #fff;
+}
+
+.chat-li.active .uk-button-dropdown > a
+{
+    color: #bdbdbd;
+    font-weight: bold;
+}
+
+.chat-li.active .uk-button-dropdown > a > i
+{
+    color: #fff;
+}
+
+.md-list-outside > li > .md-list-content
+{
+    padding: 12px 16px;
+}
+
+.message-box
+{
+    padding: 20px;
+}
+
+.message-box-dropdown
+{
+    display: block;
+    width: 100%;
+}
+
+.message-section
+{
+    width: 100%;
+}
+
+.message-section-left
+{
+    width: 75%;
+    display: inline-block;
+    float: left;
+}
+
+.message-section-right
+{
+    width: 25%;
+    display: inline-block;
+    float: left;
+}
+
+.person-name
+{
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.person-msg
+{
+    margin: 0;
+}
+
+.msg-user-image
+{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.pip-container
+{
+    position: relative;
+}
+
+.pip-container .remove-icon
+{
+    text-align: center;
+    position: absolute;
+    top: -9px;
+    right: -6px;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    background: #f2f2f2;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+    overflow: hidden;
+    border: 1px solid #5e5e5e;
+}
+
+.pip-container .remove-icon i
+{
+    color: #040303;
+    font-weight: bold;
+}
+
+.wallinfo
+{
+    float: left;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+.list_footer
+{
+    margin-bottom: 15px;
+    overflow: visible;
+}
+
+.post-img
+{
+    width: 335px;
+    height: 200px;
+}
+
+.read-more
+{
+    margin-top: 5px;
+}
+
+#manageCompanyWallPosts .heading_b .sub-heading
+{
+    font-size: 13px;
+}
+
+#manageCompanyWallPosts .no-msg-container
+{
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+#manageCompanyWallPosts .user_content
+{
+    overflow: auto;
+    position: relative;
+}
+
+.wall-heading
+{
+    padding: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background: #1976d2;*/
+    color: #fff;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-transition: all 280ms cubic-bezier(.4,0,.2,1);
+    transition: all 280ms cubic-bezier(.4,0,.2,1);
+}
+
+.user_heading_content
+{
+    display: inline-block;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 8px;
+}
+
+.user_heading_content h2
+{
+    padding: 4px 37px;
+    margin: 0 !important;
+}
+.post-img-uploader .md-card-content
+{
+        max-height: 140px;
+    overflow: auto;
+    min-height: 140px;
+}
+.post-img-uploader .md-card-content #preview_images .pip
+{
+    margin-bottom: 25px !important;
+}
+.post-img-uploader .md-card-content #preview_images .pip .imageThumb
+{
+    width: 155px;
+}
+
+@media (max-width:1219px)
+{
+    .no-msg-container
+    {
+        transform: translate(-50%,-50%);
+    }
+
+    .no-msg
+    {
+        font-size: 16px !important;
+    }
+}
